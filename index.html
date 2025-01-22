@@ -114,10 +114,9 @@
             <tr onmouseout="fun_stop()" onmouseover="fun_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
-                  <div class="two" id='fun_image'><video  width=100% muted autoplay loop>
-                  <source src="images/fun_ad_2.PNG" width=100%>
-                  Your browser does not support the video tag.
-                  </video></div>
+                  <div class="two" id='fun_image'>
+                  <img src="images/fun_ad_2.PNG" width=100%>
+                  </div>
                   <img src='images/fun_ad_1.PNG' width=100%>
                 </div>
                 <script type="text/javascript">
@@ -205,6 +204,54 @@
       </td>
     </tr>
 
+
+    <!-- JCCI -->
+    <tr onmouseout="motion_stop()" onmouseover="motion_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='motion_image'><video  width=100% muted autoplay loop>
+          <source src="images/bevformer.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/bevformer.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function motion_start() {
+            document.getElementById('motion_image').style.opacity = "1";
+          }
+
+          function motion_stop() {
+            document.getElementById('motion_image').style.opacity = "0";
+          }
+          motion_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2411.16110">
+          <span class="papertitle">3D Object Detection using Dynamic • Static Motion Information from Multi-camera Image Sequences</span>
+        </a>
+        <br>
+    <strong>Yongho Son</strong>,
+    Jungho Kim,
+    <a href="https://www.spa.snu.ac.kr/">Jun Won Choi</a>,
+        <br>
+        <em>THE 33rd JOINT CONFERENCE ON COMMUNICATIONS AND INFORMATION (JCCI)</em>, 2023
+        <br>
+        <!--<a href="https://smerf-3d.github.io/">paper</a>
+        
+        /
+        <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a>
+        /
+        <a href="https://arxiv.org/abs/2312.07541">arXiv</a> -->
+        <p></p>
+        <p>
+        Proposed a recurrent neural network that performs motion compensation with a new gate called "motion gate".
+        </p>
+      </td>
+    </tr>
+  
+
+          <!--Footnote part-->
           </tbody></table>
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
