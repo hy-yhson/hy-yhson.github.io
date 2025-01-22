@@ -162,11 +162,11 @@
     <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='smerf_image'><video  muted autoplay loop>
+          <div class="two" id='smerf_image'><video  width=100% muted autoplay loop>
           <source src="images/semantic_seg.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/semantic_seg.jpg' >
+          <img src='images/semantic_seg.jpg' width=100%>
         </div>
         <script type="text/javascript">
           function smerf_start() {
@@ -179,7 +179,7 @@
           smerf_stop()
         </script>
       </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
+      <td style="padding:20px;width:75%;vertical-align:middle">
         <a href="data/PIDDNet.pdf">
           <span class="papertitle">PIDDNet: RGB-Depth Fusion Network for Real-time Semantic Segmentation</span>
         </a>
