@@ -58,8 +58,8 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      
 
+            <!-- WaferDC -->
             <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
@@ -106,6 +106,53 @@
 
 
 
+            <!-- FUN-AD -->
+            <tr onmouseout="fun_stop()" onmouseover="fun_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='fun_image'><video  width=100% muted autoplay loop>
+                  <source src="images/semantic_seg.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src='images/semantic_seg.jpg' width=100%>
+                </div>
+                <script type="text/javascript">
+                  function fun_start() {
+                    document.getElementById('fun_image').style.opacity = "1";
+                  }
+        
+                  function fun_stop() {
+                    document.getElementById('fun_image').style.opacity = "0";
+                  }
+                  fun_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2411.16110">
+                  <span class="papertitle">FUN-AD</span>
+                </a>
+                <br>
+                Jiin Im*,
+            <strong>Yongho Son*</strong>,
+                <a href="https://sail.hanyang.ac.kr/">Je Hyeong Hong</a>,
+                <br>
+                <em>WACV</em>, 2025
+                <br>
+                <!--<a href="https://smerf-3d.github.io/">paper</a>
+                
+                /
+                <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a>
+                /
+                <a href="https://arxiv.org/abs/2312.07541">arXiv</a> -->
+                <p></p>
+                <p>
+                Industrial anomaly detection.
+                </p>
+              </td>
+            </tr>
+
+
+    <!-- PIDNet -->
     <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
